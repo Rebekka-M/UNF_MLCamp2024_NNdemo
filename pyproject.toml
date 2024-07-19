@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "unf-mlcamp2024-nndemo"
+version = "0.1.0"
+description = "Package dependency manager for UNF ML camp 2024 neural network frontend"
+authors = ["rema <rema@unf.dk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "4.9.0.80"
+matplotlib = "3.8.3"
+requests = "2.31.0"
+streamlit = "1.33"
+streamlit-drawable-canvas = "0.9.3"
+google-api-python-client = "^2.137.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+torch = "^2.3.1"
+dill = "^0.3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
